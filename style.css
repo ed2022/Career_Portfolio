@@ -1,0 +1,122 @@
+:root{
+    --text:'Courier New', Courier, monospace;
+    --Sage: #A3B498; 
+    --cream:#e3cdb5;
+}/*identifying variables so that I can call them again*/
+
+body {
+    background-color: var(--Sage);
+}/*adding background color to spice it up*/
+
+.topHeader{
+    padding: 35px;
+    font-family: var(--text);
+    color:white ;   
+}/*Just adding things to the top to show elements of structure*/
+
+.topHeader h1{
+    font-size: 50px;
+    text-align: center;
+} /* stying my name so that it can be pleasing to the eye */
+
+.topHeader div{
+    position: relative;
+    float: right;
+}/* Positioning my content nagivator*/
+
+.topHeader ul li {
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+    font-family: var(--text);
+    display: inline;
+}/*Spaces out and controls the nagvigation pannel*/
+
+.backImg1{
+    height: 600px;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    background-image: url("https://wallpapercave.com/wp/wp4288404.jpg");
+    background-size: cover;
+    background-position: center;
+}/*First Image to show simplicity*/ 
+
+.subHeadings{
+    width: 75%;
+    flex-wrap: wrap;
+    margin-left: 20px;
+} 
+
+/* .about-me, .portfolio, .contact{
+    font-family: var(--text);
+    font-size: 20px;
+    width: auto;
+    height: 700px;
+    margin: 20px;
+} */
+
+.portfolio, .contact {
+   margin: 40px; 
+}
+
+.about-me text, .portfolio text, .contact text {
+    font-family: var(--text);
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.girlImg { 
+     display: flex; 
+     float:right;
+     margin-top: 20px;
+     max-width: 100%;
+     flex-basis: 40%;
+     border: 20px dashed var(--cream);
+     padding: 20px;
+     left: 300px;
+}/*Adjusting the Image since it flows to the East*/
+
+.resume{
+    height: 100px;
+    width: 100px;
+}/*This will take you to my resume PDF!*/
+
+.workImg { 
+    position: relative;
+    flex-wrap: wrap; 
+    float:left;
+    margin-top: 20px;
+    max-width: 120%;
+    height: 600px;
+    flex-basis: 40%;
+    border: 20px dashed var(--cream);
+    padding: 20px;
+    margin-right: 50px ;
+    
+}
+
+.contact{
+    background-size: inherit;
+    padding: 0px;
+}
+.contact img {
+    max-width: 120px;
+}
+.about-mes, .portfolio, .contact h1 h2 {
+    font-size: x-large;
+}
+.phone, .linkedIn, .github, .email{
+    display: flex;
+    position: relative;
+    display: inline-block;
+    padding: 50px;
+}
+.phone, .linkedIn, .email h3 p {
+    text-align: center;
+    font-size: large;
+}
+.email img{
+    position: center;
+}
+
